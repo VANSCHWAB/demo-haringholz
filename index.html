@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sägewerk Haring - Qualitäts-Holz aus der Steiermark. Tradition & Nachhaltigkeit seit Generationen in Großklein.">
+    <title>Sägewerk Haring - Qualitäts-Holz aus der Steiermark</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .wood-texture {
+                background-image: url('images/background1.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .wood-pattern {
+           background-image: url('images/background2.jpg');
+            background-size: cover;
+        }
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-amber-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-amber-800">Sägewerk Haring</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#start" class="text-amber-900 hover:text-amber-700">Startseite</a>
+                <a href="#about" class="text-amber-900 hover:text-amber-700">Über uns</a>
+                <a href="#products" class="text-amber-900 hover:text-amber-700">Produkte</a>
+                <a href="#services" class="text-amber-900 hover:text-amber-700">Leistungen</a>
+                <a href="#sustainability" class="text-amber-900 hover:text-amber-700">Nachhaltigkeit</a>
+                <a href="#contact" class="text-amber-900 hover:text-amber-700">Kontakt</a>
+            </div>
+            <button class="md:hidden focus:outline-none">
+                <i data-feather="menu" class="text-amber-900"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="start" class="wood-texture min-h-screen flex items-center relative">
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="container mx-auto px-4 relative z-10 text-white md:ml-80" data-aos="fade-up">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Sägewerk Haring</h1>
+            <h2 class="text-2xl md:text-3xl font-semibold mb-8">Qualitäts-Holz aus der Steiermark</h2>
+            <p class="text-xl mb-8 max-w-2xl">Tradition & Nachhaltigkeit seit Generationen</p>
+            <a href="#contact" class="btn-primary inline-block bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-lg">Jetzt kontaktieren</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10" data-aos="fade-right">
+                    <h2 class="text-3xl font-bold text-amber-900 mb-6">Über uns</h2>
+                    <p class="text-lg mb-4">Unser Familienbetrieb in Großklein steht seit Generationen für hochwertige Holzprodukte und traditionelle Handwerkskunst.</p>
+                    <p class="text-lg mb-6">Wir verarbeiten ausschließlich regionales Holz aus nachhaltiger Forstwirtschaft und legen größten Wert auf Qualität und Langlebigkeit unserer Produkte.</p>
+                    <a href="#products" class="btn-primary inline-block bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-lg">Mehr erfahren</a>
+                </div>
+                <div class="md:w-1/2" data-aos="fade-left">
+                    <img src="images/logo.png" alt="Sägewerk Haring Innenansicht" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-20 wood-pattern">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-white mb-12 text-center" data-aos="fade-up">Unsere Produkte</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/bauholz1.jpg" alt="Schnittholz" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-amber-900 mb-2">Schnittholz</h3>
+                        <p class="text-gray-700 mb-4">Hochwertiges Schnittholz in verschiedenen Stärken und Längen, ideal für Bauprojekte und Möbelherstellung.</p>
+                        <a href="#contact" class="text-green-700 hover:text-green-900 font-medium">Anfragen</a>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/bauholz.jpg" alt="Bauholz" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-amber-900 mb-2">Bauholz</h3>
+                        <p class="text-gray-700 mb-4">Stabiles Bauholz für tragende Konstruktionen, Dachstühle und Holzbau nach individuellen Anforderungen.</p>
+                        <a href="#contact" class="text-green-700 hover:text-green-900 font-medium">Anfragen</a>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg" data-aos="fade-up" data-aos-delay="300">
+                    <img src="images/rundholz.jpg" alt="Individuelle Holzprodukte" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-amber-900 mb-2">Individuelle Holzprodukte</h3>
+                        <p class="text-gray-700 mb-4">Maßgefertigte Holzprodukte nach Ihren Wünschen - von Terrassendielen bis zu speziellen Sägearbeiten.</p>
+                        <a href="#contact" class="text-green-700 hover:text-green-900 font-medium">Anfragen</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-amber-900 mb-12 text-center" data-aos="fade-up">Unsere Leistungen</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-amber-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-green-700 mb-4">
+                        <i data-feather="scissors" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Zuschnitt</h3>
+                    <p>Präziser Zuschnitt nach Maß für alle Ihre Holzprojekte.</p>
+                </div>
+                <div class="bg-amber-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-green-700 mb-4">
+                        <i data-feather="sun" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Hobelwerk</h3>
+                    <p>Fachgerechte Bearbeitung für optimale Qualität.</p>
+                </div>
+                <div class="bg-amber-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-green-700 mb-4">
+                        <i data-feather="tool" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Sonderanfertigungen</h3>
+                    <p>Individuelle Lösungen für spezielle Anforderungen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainability Section -->
+    <section id="sustainability" class="py-20 bg-green-800 text-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <img src="images/images.jpg" alt="Nachhaltige Forstwirtschaft" class="rounded-lg shadow-xl">
+                </div>
+                <div class="md:w-1/2 md:pl-10" data-aos="fade-left">
+                    <h2 class="text-3xl font-bold mb-6">Nachhaltigkeit</h2>
+                    <p class="text-lg mb-4">Wir beziehen unser Holz ausschließlich aus regionalen, nachhaltig bewirtschafteten Wäldern der Steiermark.</p>
+                    <p class="text-lg mb-6">Durch kurze Transportwege und ressourcenschonende Verarbeitung tragen wir aktiv zum Umweltschutz bei.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> FSC-zertifiziertes Holz</li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> Energieeffiziente Produktion</li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> Kreislaufwirtschaft</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-amber-900 mb-12 text-center" data-aos="fade-up">Kontakt</h2>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10" data-aos="fade-right">
+                    <h3 class="text-xl font-bold mb-4">Sägewerk Haring</h3>
+                    <address class="not-italic mb-6">
+                        <p class="flex items-center mb-2"><i data-feather="map-pin" class="mr-2"></i> Holzgasse 12, 8453 Großklein</p>
+                        <p class="flex items-center mb-2"><i data-feather="phone" class="mr-2"></i> +43 1234 56789</p>
+                        <p class="flex items-center"><i data-feather="mail" class="mr-2"></i> info@saegwerk-haring.at</p>
+                    </address>
+                    <h3 class="text-xl font-bold mb-4">Öffnungszeiten</h3>
+                    <ul class="space-y-1">
+                        <li>Mo-Fr: 7:00 - 17:00 Uhr</li>
+                        <li>Sa: 8:00 - 12:00 Uhr</li>
+                        <li>So: Geschlossen</li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2" data-aos="fade-left">
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block mb-1">Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-700 focus:border-green-700">
+                        </div>
+                        <div>
+                            <label for="email" class="block mb-1">E-Mail</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-700 focus:border-green-700">
+                        </div>
+                        <div>
+                            <label for="subject" class="block mb-1">Betreff</label>
+                            <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-700 focus:border-green-700">
+                        </div>
+                        <div>
+                            <label for="message" class="block mb-1">Nachricht</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-700 focus:border-green-700"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary w-full bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-lg">Nachricht senden</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-amber-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Sägewerk Haring</h3>
+                    <p>Qualitäts-Holz aus der Steiermark - Tradition & Nachhaltigkeit seit Generationen.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Navigation</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#start" class="hover:text-amber-200">Startseite</a></li>
+                        <li><a href="#about" class="hover:text-amber-200">Über uns</a></li>
+                        <li><a href="#products" class="hover:text-amber-200">Produkte</a></li>
+                        <li><a href="#services" class="hover:text-amber-200">Leistungen</a></li>
+                        <li><a href="#sustainability" class="hover:text-amber-200">Nachhaltigkeit</a></li>
+                        <li><a href="#contact" class="hover:text-amber-200">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Kontakt</h3>
+                    <address class="not-italic">
+                        <p class="mb-2">Mattelsberg 55</p>
+                        <p class="mb-2">8453 Großklein</p>
+                        <p class="mb-2">Steiermark, Österreich</p>
+                        <p>info@haringholz.at/</p>
+                    </address>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Rechtliches</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-amber-200">Impressum</a></li>
+                        <li><a href="#" class="hover:text-amber-200">Datenschutz</a></li>
+                        <li><a href="#" class="hover:text-amber-200">AGB</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-amber-700 mt-8 pt-8 text-center">
+                <p>&copy; Sägewerk Haring. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        feather.replace();
+        
+        // Mobile menu toggle
+        document.querySelector('button').addEventListener('click', function() {
+            const menu = document.querySelector('.hidden.md\\:flex');
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('flex');
+            menu.classList.toggle('flex-col');
+            menu.classList.toggle('absolute');
+            menu.classList.toggle('top-16');
+            menu.classList.toggle('left-0');
+            menu.classList.toggle('right-0');
+            menu.classList.toggle('bg-white');
+            menu.classList.toggle('p-4');
+            menu.classList.toggle('shadow-lg');
+        });
+    </script>
+</body>
+</html>
